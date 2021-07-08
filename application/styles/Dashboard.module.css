@@ -1,0 +1,174 @@
+.chart {
+    margin: 0% 1% 0% 0%;
+    margin-bottom: 15px;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.cardAdd {
+    margin: 0% 0% 0% 1%;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1076px) {
+    .cardAdd {
+        margin: 0% 0% 0% 0%;
+        background: #ffffff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .chart {
+        margin: 0% 0% 0% 0%;
+        margin-bottom: 15px;
+        background: #ffffff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        box-sizing: border-box;
+    }
+}
+.containerChart {
+    padding: 0px 30px;
+}
+.cardChart {
+    margin: 0% 10% auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1350px) {
+    .cardChart {
+        margin: 0% 1% auto;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .containerChart {
+        padding: 0px 10px 0px 10px;
+    }
+}
+.canvas-container {
+    height: 60vh;
+}
+@media screen and (max-width: 675px) {
+    .cardTable {
+        display: none;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.row {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*[class*="col-"] {*/
+/*    float: left;*/
+
+/*}*/
+/*[class*="col-"] {*/
+/*    width: 100%;*/
+/*}*/
+
+/* @media only screen and (min-width: 600px) { */
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1076px) {
+    .colS1 {
+        width: 8.33%;
+    }
+    .colS2 {
+        width: 16.66%;
+    }
+    .colS3 {
+        width: 25%;
+    }
+    .colS4 {
+        width: 33.33%;
+    }
+    .colS5 {
+        width: 41.66%;
+    }
+    .colS6 {
+        width: 50%;
+        height: 50%;
+    }
+    .colS7 {
+        width: 58.33%;
+    }
+    .colS8 {
+        width: 66.66%;
+    }
+    .colS9 {
+        width: 75%;
+    }
+    .colS10 {
+        width: 83.33%;
+    }
+    .colS11 {
+        width: 91.66%;
+    }
+    .colS12 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1076px) {
+    .col1 {
+        width: 8.33%;
+    }
+    .col2 {
+        width: 16.66%;
+    }
+    .col3 {
+        width: 25%;
+    }
+    .col4 {
+        width: 33.33%;
+    }
+    .col5 {
+        width: 41.66%;
+    }
+    .col6 {
+        width: 50%;
+        height: 50%;
+    }
+    .col7 {
+        width: 58.33%;
+    }
+    .col8 {
+        width: 66.66%;
+    }
+    .col9 {
+        width: 75%;
+    }
+    .col10 {
+        width: 83.33%;
+    }
+    .col11 {
+        width: 91.66%;
+    }
+    .col12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 800px) {
+}
+.col-container {
+    display: table;
+    width: 100%;
+}
+.col {
+    display: table-cell;
+}

@@ -1,0 +1,166 @@
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thead .th {
+    border-bottom: 1px solid #000;
+    background-color: #f5f5f5;
+}
+.th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+.tr:hover {background-color: #ddd;}
+
+.td, .th {
+    border-bottom : 1px solid #ddd;
+    padding: 8px;
+}
+
+.tfoot .tr{
+    background-color: #f5f5f5;
+}
+.formDevice {
+    width: 340px;
+    margin: 15px 0px 2px 0px;
+    font-size: 15px;
+    background-color: #f9f4f4;
+    min-height: 38px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0px solid #ced4da;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.pagination {
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 5px;
+
+}
+
+.pagination a.active {
+    background-color: #588ef8;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1076px)  {
+
+    .table, .thead, .tbody, .th, .td, .tr {
+        display: block;
+    }
+    .tfoot {
+        display: none;
+    }
+
+    .thead .tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .tr {
+        margin: 0 0 1rem 0;
+    }
+
+    .tr:nth-child(odd) {
+        background: #ddd;
+    }
+
+    .td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .td:before {
+        position: absolute;
+        font-weight: bold;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .td .device:nth-of-type(1):before { content: "Devices"; }
+    .td .device:nth-of-type(2):before { content: "MAC"; }
+    .td .device:nth-of-type(3):before { content: "IP"; }
+    .td .device:nth-of-type(4):before { content: "Created Date"; }
+    .td .device:nth-of-type(5):before { content: "Power Consumption (kWh)"; }
+
+    .td:nth-of-type(1):before { content: "Devices"; }
+    .td:nth-of-type(2):before { content: "MAC"; }
+    .td:nth-of-type(3):before { content: "IP"; }
+    .td:nth-of-type(4):before { content: "Created Date"; }
+    .td:nth-of-type(5):before { content: "Power Consumption (kWh)"; }
+
+    .td .log:nth-of-type(1):before { content: "Device ID"; }
+    .td .log:nth-of-type(2):before { content: "Name"; }
+    .td .log:nth-of-type(3):before { content: "Action"; }
+    .td .log:nth-of-type(4):before { content: "Date"; }
+}
+.loginButton {
+    min-height: 38px;
+    border-radius: 8px;
+    min-width: 138px;
+    border: 1px solid #f28e19;
+    background-color: #f28e19;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.loginButton:not(#searchButton){
+    margin: 10px;
+}
+.buttonPagination {
+    /*color: black;*/
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 5px;
+    /*border-color: #588ef8;*/
+    background: white;
+}
+
+.buttonPagination:active {
+    background-color: #588ef8 !important;
+    /*color: white !important;*/
+    border-radius: 5px;
+}
+.buttonPagination:hover {
+    border-color: #588ef0 !important;
+    background-color: white !important;
+    /*color: white !important;*/
+    border-radius: 5px;
+}
+.showRow {
+
+}

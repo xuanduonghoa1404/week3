@@ -1,0 +1,146 @@
+[
+    {
+        "device_id": "1",
+        "name": "TV",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "110",
+        "name": "Laptop",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "111",
+        "name": "TV",
+        "action": "turn on",
+        "date": "24-06-2021"
+    },
+    {
+        "device_id": "112",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "113",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "23-06-2021"
+    },
+    {
+        "device_id": "114",
+        "name": "Mobile",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "115",
+        "name": "TV",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "116",
+        "name": "Light",
+        "action": "turn off",
+        "date": "22-06-2021"
+    },
+    {
+        "device_id": "1",
+        "name": "TV",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "110",
+        "name": "Laptop",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "111",
+        "name": "TV",
+        "action": "turn on",
+        "date": "24-06-2021"
+    },
+    {
+        "device_id": "112",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "113",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "23-06-2021"
+    },
+    {
+        "device_id": "114",
+        "name": "Mobile",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "115",
+        "name": "TV",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "116",
+        "name": "Light",
+        "action": "turn off",
+        "date": "22-06-2021"
+    },
+    {
+        "device_id": "1",
+        "name": "TV",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "110",
+        "name": "Laptop",
+        "action": "turn on",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "111",
+        "name": "TV",
+        "action": "turn on",
+        "date": "24-06-2021"
+    },
+    {
+        "device_id": "112",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "113",
+        "name": "Wahser",
+        "action": "turn off",
+        "date": "23-06-2021"
+    },
+    {
+        "device_id": "114",
+        "name": "Mobile",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "115",
+        "name": "TV",
+        "action": "turn off",
+        "date": "21-06-2021"
+    },
+    {
+        "device_id": "116",
+        "name": "Light",
+        "action": "turn off",
+        "date": "22-06-2021"
+    }
+]
